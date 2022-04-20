@@ -1,6 +1,6 @@
 class Television:
     """
-    Televesio class
+    Televesion class
     """
     MIN_CHANNEL = 0     # Minimum TV channel
     MAX_CHANNEL = 3     # Maximum TV channel
