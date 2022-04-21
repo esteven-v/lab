@@ -1,6 +1,6 @@
 class Television:
     """
-    Televesion class
+    Class to represent the Television objects
     """
     MIN_CHANNEL = 0     # Minimum TV channel
     MAX_CHANNEL = 3     # Maximum TV channel
@@ -9,6 +9,9 @@ class Television:
     MAX_VOLUME = 2      # Maximum TV volume
 
     def __init__(self):
+        """
+        Method to set the default state of the TV.
+        """
         self.channel = Television.MIN_CHANNEL
         self.volume = Television.MIN_VOLUME
         self.tv_power = False
